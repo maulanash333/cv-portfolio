@@ -1,0 +1,280 @@
+{
+  "hero": {
+    "name": "Maulana",
+    "title": "Expert in Culinary & System Development.",
+    "description": "A seasoned professional with expertise in culinary arts, office management, and system development. Experienced in building COGS, HPP, stock opname, and attendance systems.",
+    "email": "maulana.sh333@gmail.com",
+    "phone": "081310750283",
+    "linkedin": "https://www.linkedin.com/in/maulana-maulana-071583320/",
+    "github": null,
+    "photo": "images/photos/LVp05pdrOSFhqLVvUBZqgqs8LTb32sTc5AXShsxf.jpg"
+  },
+  "experiences": [
+    {
+      "id": 1,
+      "position": "PKL/MAGANG Asistant Administrasi",
+      "company": "Dinas Lingkungan Hidup Kota Tangsel",
+      "location": "Tangerang Selatan",
+      "start_date": "2019-06-01",
+      "end_date": "2019-09-30",
+      "is_current": false,
+      "description": null,
+      "photo": "images/experiences/hPttI1ER4A7vzCW2oafzzQSQqnwgDeTQF8w3U03q.jpg"
+    },
+    {
+      "id": 3,
+      "position": "Cook Helper (DW)",
+      "company": "Hotel Santika Premiere Yogyakarta",
+      "location": "Yogyakarta",
+      "start_date": "2021-09-12",
+      "end_date": "2022-12-15",
+      "is_current": false,
+      "description": null,
+      "photo": "images/experiences/b8ZKePHF8AhCAdEDAe1jwh6qFYNqC5hEY74n2OY8.jpg"
+    },
+    {
+      "id": 4,
+      "position": "Casual On Call Cook Helper",
+      "company": "All",
+      "location": "Yogyakarta",
+      "start_date": "2022-03-01",
+      "end_date": "2023-01-02",
+      "is_current": false,
+      "description": "Hyyat Regency Yogyakarta\r\nJw Marriot Yogyakarta\r\nHotel Platinum Yogyakarta\r\nFloating Resto Sleman",
+      "photo": null
+    },
+    {
+      "id": 5,
+      "position": "Intership Cook Helper & Housekeeping",
+      "company": "Gora Hanaougi Madoka No Mori Japan",
+      "location": "Hakone Japan",
+      "start_date": "2023-03-20",
+      "end_date": "2024-03-20",
+      "is_current": false,
+      "description": null,
+      "photo": "images/experiences/lCt35WaphkjcMWjlq7RSKGGCtcCBH8kEia1WzNBS.jpg"
+    },
+    {
+      "id": 6,
+      "position": "Butcher and Comisary",
+      "company": "Doble Tree By Hilton Bintaro",
+      "location": "Tangerang Selatan",
+      "start_date": "2024-08-12",
+      "end_date": "2024-12-01",
+      "is_current": false,
+      "description": null,
+      "photo": "images/experiences/lukz1i7SUzs6TPUI9sn0Z852I9RTCndSS8ycL49v.jpg"
+    },
+    {
+      "id": 7,
+      "position": "Business/Wirausaha (Bakmi Jowo Roso)",
+      "company": "Pribadi",
+      "location": "Tangerang Selatan",
+      "start_date": "2024-12-03",
+      "end_date": "2026-02-03",
+      "is_current": false,
+      "description": null,
+      "photo": "images/experiences/lU0K2rNnsGrlwVqYGpym08t5w2GV9SKJApdr65hW.jpg"
+    },
+    {
+      "id": 8,
+      "position": "Cook & Asistant Cheff",
+      "company": "Onikuto Japanes BBQ",
+      "location": "Jakarta Selatan",
+      "start_date": "2026-02-27",
+      "end_date": "2026-04-07",
+      "is_current": false,
+      "description": null,
+      "photo": "images/experiences/3d6jQUQYE6MJE21z3EB6DqEyJkP0ErWBM2cNuM1O.jpg"
+    }
+  ],
+  "projects": [
+    {
+      "id": 5,
+      "title": "CASUAL MAHASISWA YOGYAKARTA",
+      "slug": "PART-TIME-MAHASISWA",
+      "subtitle": "Ketua Penanggung Jawab",
+      "description": "Membuat sebuah wadah yang didalamnya berisikan HRD/MANAGER/GM Hotel/Resot/Office dan Mahasiswa/Dosen/Kaprodi untuk menyalurkan serta mencari pekerjaan sampingan/part time/casual/daily worker yang aman dan terpercaya.",
+      "body": null,
+      "tech_stack": null,
+      "thumbnail": null,
+      "url": null,
+      "images": [
+        "images/projects/5/g3qMCceUf7nj1og50Z2sGsAtWndov5AhXJarc97y.jpg"
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Sistem COGS",
+      "slug": "sistem-cogs",
+      "subtitle": "Cost of Goods Sold Calculation System",
+      "description": "Sistem perhitungan Harga Pokok Penjualan untuk membantu analisis biaya produksi dan margin keuntungan.",
+      "body": null,
+      "tech_stack": "Excel, VBA, MySQL",
+      "thumbnail": null,
+      "url": null,
+      "images": []
+    },
+    {
+      "id": 2,
+      "title": "Sistem Stock Opname",
+      "slug": "sistem-stock-opname",
+      "subtitle": "Inventory Stocktaking System",
+      "description": "Sistem pencatatan dan rekonsiliasi stok barang secara periodik untuk akurasi inventaris.",
+      "body": null,
+      "tech_stack": "Excel, VBA, SQL Server",
+      "thumbnail": null,
+      "url": null,
+      "images": []
+    },
+    {
+      "id": 3,
+      "title": "Sistem HPP",
+      "slug": "sistem-hpp",
+      "subtitle": "Harga Pokok Produksi Calculator",
+      "description": "Aplikasi perhitungan Harga Pokok Produksi untuk menentukan harga jual yang tepat.",
+      "body": null,
+      "tech_stack": "Excel, PHP, MySQL",
+      "thumbnail": null,
+      "url": null,
+      "images": []
+    },
+    {
+      "id": 4,
+      "title": "Sistem Absensi",
+      "slug": "sistem-absensi",
+      "subtitle": "Employee Attendance Tracking System",
+      "description": "Sistem pencatatan kehadiran karyawan terintegrasi dengan payroll.",
+      "body": null,
+      "tech_stack": "PHP, Laravel, MySQL",
+      "thumbnail": null,
+      "url": null,
+      "images": []
+    }
+  ],
+  "skills": [
+    { "name": "Microsoft Excel", "category": "Office", "proficiency": 75, "sort_order": 1 },
+    { "name": "Microsoft Word", "category": "Office", "proficiency": 75, "sort_order": 2 },
+    { "name": "Microsoft PowerPoint", "category": "Office", "proficiency": 75, "sort_order": 3 },
+    { "name": "Bahasa Jepang", "category": "Language", "proficiency": 68, "sort_order": 4 },
+    { "name": "Bahasa Inggris", "category": "Language", "proficiency": 70, "sort_order": 5 },
+    { "name": "Japanese Food", "category": "Cook", "proficiency": 75, "sort_order": 6 },
+    { "name": "Western Food", "category": "Cook", "proficiency": 70, "sort_order": 7 },
+    { "name": "Indonesian Food", "category": "Cook", "proficiency": 78, "sort_order": 8 },
+    { "name": "COGS", "category": "System", "proficiency": 75, "sort_order": 9 },
+    { "name": "HPP", "category": "System", "proficiency": 70, "sort_order": 10 },
+    { "name": "Stock Opname", "category": "System", "proficiency": 70, "sort_order": 11 },
+    { "name": "Sistem Absensi", "category": "System", "proficiency": 70, "sort_order": 12 }
+  ],
+  "certificates": [
+    {
+      "id": 1,
+      "title": "KETUA CULINARY CLUB 2021-2022",
+      "issuer": null,
+      "issue_date": "2022-09-02",
+      "image": "images/certificates/QC4VlzbVJWhfvJqCdbPF1o2KnAF5kmTlouB81dBh.jpg",
+      "description": null
+    },
+    {
+      "id": 2,
+      "title": "Ketua Penanggung Jawab ACTION (AMPTA COOKING COMPETITION)",
+      "issuer": "CULINARY CLUB STP AMPTA",
+      "issue_date": "2022-01-12",
+      "image": "images/certificates/r8P4xuFnzky4au7OOiteDpwcwPPAREQ0tFvXa3Jr.jpg",
+      "description": null
+    },
+    {
+      "id": 3,
+      "title": "Ketua Penanggung Jawab FOOD PLATTING ART 2022",
+      "issuer": "CULINARY CLUB STP AMPTA",
+      "issue_date": "2022-06-11",
+      "image": "images/certificates/Z91zIjWlJWInfqrTIsdeBJefRqHeBULc37Z5Wu0A.jpg",
+      "description": null
+    },
+    {
+      "id": 4,
+      "title": "Certificate Of Apreciation For Participate Kaesang&Erina Wedding",
+      "issuer": "Royal Ambarukmo Hotels",
+      "issue_date": "2022-12-10",
+      "image": "images/certificates/ynsVQkjiV3yuyC4saubpO7jS0jAl4f4NhdRNWxU0.jpg",
+      "description": null
+    },
+    {
+      "id": 6,
+      "title": "Panitia PKKMB STP AMPTA Yogyakarta",
+      "issuer": "SEMA STP AMPTA Yogyakarta",
+      "issue_date": "2022-09-12",
+      "image": "images/certificates/5Ttnors0PZxWnEKNL9snoy6kfqkhQyjUGoSczmoQ.jpg",
+      "description": null
+    },
+    {
+      "id": 7,
+      "title": "National Butchery and Cooking Competition 2022",
+      "issuer": "AUSSIE MEAT ACADEMY",
+      "issue_date": "2022-11-01",
+      "image": "images/certificates/Z3jQs3RZeXHrsqhMMTJdW2xkY1EYIDWMYGvRYGAq.jpg",
+      "description": null
+    },
+    {
+      "id": 8,
+      "title": "Volunteer Rakerda IHGMA DPD Yogyakarta",
+      "issuer": "IHGMA DPD Yogyakarta",
+      "issue_date": "2023-02-24",
+      "image": "images/certificates/SDTLSoTjUQ71CguX3i1tWUHS9odPFe5xV7NJXlOc.jpg",
+      "description": null
+    },
+    {
+      "id": 9,
+      "title": "MSIB Batch 3 (Front End Developer) React Js",
+      "issuer": "Alterra Academy",
+      "issue_date": "2022-12-28",
+      "image": "images/certificates/UwMR8X6OgCeWnsglQ1ZHvBSCIney2rIWOCtFgh3t.jpg",
+      "description": null
+    },
+    {
+      "id": 10,
+      "title": "Ketua Penanggung Jawab ACTION(AMPTA COOKING COMPETITION) 2023",
+      "issuer": "CULINARY CLUB STP AMPTA",
+      "issue_date": "2023-02-03",
+      "image": "images/certificates/e3PCwZtkQ4eskdtdqMe8L19dbspU8pepnVEkGj47.jpg",
+      "description": null
+    },
+    {
+      "id": 11,
+      "title": "Developer & Ketua Penanggung Jawab Casual Mahasiswa STP AMPTA",
+      "issuer": "Pribadi",
+      "issue_date": null,
+      "image": "images/certificates/XRLbZIsJY5Qnhv1HsKZxIzk3b8xT84uxvfajHwhb.jpg",
+      "description": null,
+      "url": "https://chat.whatsapp.com/JmaszzenUT5Ef5Kk6EOUXL"
+    }
+  ],
+  "gallery": [
+    "images/gallery/PwAQVE2mw6V4rwHV17h1HClFTnhxYUyoyXcqOWwR.jpg",
+    "images/gallery/u9Qi86ROKdFtgZwlYRiHquKtRTZUQZZpWAHilINr.jpg",
+    "images/gallery/vvOU1psmKxLJhNRVHsHKfNQGt2nQdvxh31aLFD1l.jpg",
+    "images/gallery/NcHFqUI0d3PxCI36vRZEs9pqo0EPEDC84pA1QcHN.jpg",
+    "images/gallery/Rfspzq46Zpaf1mai8IC1i6dTfq6V7bFThuQEBWUS.jpg",
+    "images/gallery/VvJMhFoznF5qlk05ypv9nVpS23QLJBpLfUL9FzYw.jpg",
+    "images/gallery/7ZXPQLpr98ZcylTkQuwKmmFeZ9CfSeV29oXnv9o9.jpg",
+    "images/gallery/L91a8eilMtzqvMQyL4CFtevkHBXqRgKGqH2imipo.jpg",
+    "images/gallery/jmwhnBEewQTynHsWiAK6NLss1y7riqrzSsOCsJuC.jpg",
+    "images/gallery/7NErkjmw4j2nikYBHiOytlB4qxfjUZCBW9fwYiFh.jpg",
+    "images/gallery/t4uIS3sx60K8B2PsIUfduLoxsM8yEEWDyIQqpBcg.jpg",
+    "images/gallery/B3pcxBXcAH94aRjO44DdlLuPu4y9MAOIvXDndte9.jpg",
+    "images/gallery/KRS9VWg0xeMOuBASRDTzLjJS752aAISnxRn19SFu.jpg",
+    "images/gallery/jXBoF8021zOphLIOCTI9tlsBBmZu8Td4rH38mSa9.jpg",
+    "images/gallery/NTsvZWyVzv4Lip6NmXPXPyZ6VfHbI0428AvDt1XH.jpg",
+    "images/gallery/FmFYUwCXhVOd1btWVxY28WZNPWQ4PhX3SemwbCqq.jpg",
+    "images/gallery/9r9VwhowFCbJ6OlH9eziIscRJOYi3RUoiZhkHKIZ.jpg",
+    "images/gallery/1nHsjkQsThH4pFHZcc0Cyf1CbCIe2E8ThCswbTk9.jpg",
+    "images/gallery/c1RDyHGhkMnda2KEUFz3fEH1iakeJ8Tw6qRVNwFr.jpg",
+    "images/gallery/O49xqOEiEQuoHwxOIbjCNmAhW4D8erlPUK5HxuFJ.jpg",
+    "images/gallery/vhlS8KJD34RwAgR1xYqa9jDPurBDj7psudImfDM9.jpg",
+    "images/gallery/jljTjGR3quOdJeQfDZfAktjGhxEcKr22ARZ248WZ.jpg",
+    "images/gallery/UmqLVJPNZVP9jxQxTKkyBGj9uLWvxLlEnhahUZrt.jpg",
+    "images/gallery/5HL9K7gNFLtm7lZmNzT2tOb0wcOmzI5VOJst2DdE.jpg",
+    "images/gallery/4VmUxXjAE180ztLmF5Y1SgwHSuJ8uyGc70zrqqKq.jpg",
+    "images/gallery/FJ2tYfFjUGkpo2zJ3vBfsImtT17ArYpfaLdzcz8C.jpg"
+  ]
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Maulana — Expert in Culinary & System Development. Professional portfolio showcasing experience, projects, and skills.">
+    <meta name="keywords" content="portfolio, career, resume, CV, Maulana, culinary, system development, COGS, HPP, stock opname">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Maulana — Expert in Culinary & System Development">
+    <meta property="og:description" content="A seasoned professional with expertise in culinary arts, office management, and system development.">
+    <meta property="og:type" content="profile">
+    <meta property="og:url" content="https://maulana.vercel.app">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Maulana — Professional Portfolio">
+    <meta name="twitter:description" content="Career portfolio showcasing experience, projects, and skills.">
+    <title>Maulana — Expert in Culinary & System Development</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="nav-logo" id="navName">Portfolio</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about" class="nav-link" data-section="about">Tentang</a></li>
+                <li><a href="#experience" class="nav-link" data-section="experience">Pengalaman</a></li>
+                <li><a href="#projects" class="nav-link" data-section="projects">Project</a></li>
+                <li><a href="#skills" class="nav-link" data-section="skills">Keahlian</a></li>
+                <li><a href="#certificates" class="nav-link" data-section="certificates">Sertifikat</a></li>
+                <li><a href="#gallery" class="nav-link" data-section="gallery">Galeri</a></li>
+                <li><a href="#contact" class="nav-link" data-section="contact">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Loading -->
+        <div class="loading" id="loading">
+            <i class="fas fa-spinner fa-spin"></i>
+            <p>Memuat data...</p>
+        </div>
+
+        <!-- Main Page Content -->
+        <div class="page-content" id="pageContent">
+            <!-- Hero -->
+            <section class="hero" id="about">
+                <div class="container">
+                    <div class="hero-grid">
+                        <div class="hero-content">
+                            <span class="hero-tag">Portfolio</span>
+                            <h1 class="hero-title" id="heroName">Maulana</h1>
+                            <p class="hero-subtitle" id="heroTitle">Expert in Culinary & System Development</p>
+                            <p class="hero-desc" id="heroDesc"></p>
+                            <div class="hero-actions">
+                                <a href="#projects" class="btn btn-primary">Lihat Project</a>
+                                <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+                            </div>
+                        </div>
+                        <div class="hero-image">
+                            <img id="heroPhoto" class="hero-photo" src="" alt="Maulana" style="display:none">
+                            <div class="hero-avatar" id="heroAvatar"><i class="fas fa-user"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Stats -->
+            <section class="stats-bar">
+                <div class="container">
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-value" id="statExp">0</div>
+                            <div class="stat-label">Pengalaman</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value" id="statProj">0</div>
+                            <div class="stat-label">Project</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value" id="statCert">0</div>
+                            <div class="stat-label">Sertifikat</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value" id="statSkills">0</div>
+                            <div class="stat-label">Keahlian</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Experience -->
+            <section class="section" id="experience">
+                <div class="container">
+                    <div class="section-header">
+                        <span class="section-tag">Career Path</span>
+                        <h2 class="section-title">Pengalaman Kerja</h2>
+                        <p class="section-desc">Perjalanan karir dan pengalaman profesional.</p>
+                    </div>
+                    <div class="timeline" id="timelineContainer"></div>
+                </div>
+            </section>
+
+            <!-- Projects -->
+            <section class="section section-alt" id="projects">
+                <div class="container">
+                    <div class="section-header">
+                        <span class="section-tag">Portfolio</span>
+                        <h2 class="section-title">Project</h2>
+                        <p class="section-desc">Sistem dan aplikasi yang pernah dikembangkan.</p>
+                    </div>
+                    <div class="projects-grid" id="projectsContainer"></div>
+                </div>
+            </section>
+
+            <!-- Skills -->
+            <section class="section" id="skills">
+                <div class="container">
+                    <div class="section-header">
+                        <span class="section-tag">Skills</span>
+                        <h2 class="section-title">Keahlian</h2>
+                        <p class="section-desc">Bidang dan kompetensi yang dikuasai.</p>
+                    </div>
+                    <div class="skills-grid" id="skillsContainer"></div>
+                </div>
+            </section>
+
+            <!-- Certificates -->
+            <section class="section section-alt" id="certificates">
+                <div class="container">
+                    <div class="section-header">
+                        <span class="section-tag">Certifications</span>
+                        <h2 class="section-title">Sertifikat</h2>
+                        <p class="section-desc">Sertifikat dan penghargaan yang diraih.</p>
+                    </div>
+                    <div class="cert-grid" id="certsContainer"></div>
+                </div>
+            </section>
+
+            <!-- Gallery -->
+            <section class="section" id="gallery">
+                <div class="container">
+                    <div class="section-header">
+                        <span class="section-tag">Gallery</span>
+                        <h2 class="section-title">Galeri Foto</h2>
+                        <p class="section-desc">Dokumentasi kegiatan dan pengalaman kerja.</p>
+                    </div>
+                    <div class="gallery-grid" id="galleryContainer"></div>
+                </div>
+            </section>
+
+            <!-- Contact -->
+            <section class="section section-alt" id="contact">
+                <div class="container">
+                    <div class="section-header">
+                        <span class="section-tag">Contact</span>
+                        <h2 class="section-title">Hubungi Saya</h2>
+                        <p class="section-desc">Terhubung melalui platform berikut.</p>
+                    </div>
+                    <div class="contact-grid">
+                        <div class="contact-list" id="contactContainer"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Project Detail Page -->
+        <div class="page-project" id="pageProject">
+            <section class="project-detail-page">
+                <div class="container">
+                    <button class="back-link" id="backToProjects"><i class="fas fa-arrow-left"></i> Kembali</button>
+                    <div class="project-detail-header">
+                        <h1 class="project-detail-title" id="projectDetailTitle"></h1>
+                        <p class="project-detail-subtitle" id="projectDetailSubtitle"></p>
+                    </div>
+                    <div class="project-detail-body">
+                        <h3>Tentang Project</h3>
+                        <p id="projectDetailDesc"></p>
+                        <div class="project-body-text" id="projectDetailBody"></div>
+                        <div id="projectDetailTech"></div>
+                    </div>
+                    <div class="project-detail-images" id="projectDetailImages">
+                        <h3>Dokumentasi</h3>
+                        <div class="project-images-grid" id="projectImagesGrid"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p id="footerText">&copy; 2026 Maulana. All rights reserved.</p>
+                <div class="footer-links" id="footerLinks"></div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Gallery Lightbox -->
+    <div class="lightbox" id="galleryLightbox" onclick="closeGallery()">
+        <button class="lightbox-close"><i class="fas fa-times"></i></button>
+        <button class="lightbox-nav lightbox-prev" id="galleryPrev" onclick="galleryNav(-1)"><i class="fas fa-chevron-left"></i></button>
+        <img id="lightboxImg" src="" alt="">
+        <button class="lightbox-nav lightbox-next" id="galleryNext" onclick="galleryNav(1)"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <!-- Project Image Lightbox -->
+    <div class="lightbox" id="projectLightbox" onclick="closeProjectLightbox()">
+        <button class="lightbox-close"><i class="fas fa-times"></i></button>
+        <img id="projectLightboxImg" src="" alt="">
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
