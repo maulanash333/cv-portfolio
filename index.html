@@ -7,12 +7,12 @@
     <meta name="keywords" content="portfolio, career, resume, CV, Maulana, culinary, system development, COGS, HPP, stock opname">
     <meta name="robots" content="index, follow">
     <meta property="og:title" content="Maulana — Expert in Culinary & System Development">
-    <meta property="og:description" content="A seasoned professional with expertise in culinary arts, office management, and system development.">
+    <meta property="og:description" content="A seasoned professional with expertise in culinary arts and system development.">
     <meta property="og:type" content="profile">
     <meta property="og:url" content="https://maulana.vercel.app">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Maulana — Professional Portfolio">
-    <meta name="twitter:description" content="Career portfolio showcasing experience, projects, and skills.">
+    <meta name="twitter:description" content="Expert in Culinary & System Development — Career portfolio.">
     <title>Maulana — Expert in Culinary & System Development</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -212,6 +212,14 @@
         <button class="lightbox-nav lightbox-prev" id="galleryPrev" onclick="galleryNav(-1)"><i class="fas fa-chevron-left"></i></button>
         <img id="lightboxImg" src="" alt="">
         <button class="lightbox-nav lightbox-next" id="galleryNext" onclick="galleryNav(1)"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <!-- Certificate Lightbox -->
+    <div class="lightbox" id="certLightbox" onclick="closeCertLightbox()">
+        <button class="lightbox-close"><i class="fas fa-times"></i></button>
+        <button class="lightbox-nav lightbox-prev" onclick="certNav(-1)"><i class="fas fa-chevron-left"></i></button>
+        <img id="certLightboxImg" src="" alt="">
+        <button class="lightbox-nav lightbox-next" onclick="certNav(1)"><i class="fas fa-chevron-right"></i></button>
     </div>
 
     <!-- Project Image Lightbox -->

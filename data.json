@@ -2,7 +2,7 @@
   "hero": {
     "name": "Maulana",
     "title": "Expert in Culinary & System Development.",
-    "description": "A seasoned professional with expertise in culinary arts, office management, and system development. Experienced in building COGS, HPP, stock opname, and attendance systems.",
+    "description": "A seasoned professional with expertise in culinary arts and system development. Experienced in building COGS, HPP, stock opname, and attendance systems.",
     "email": "maulana.sh333@gmail.com",
     "phone": "081310750283",
     "linkedin": "https://www.linkedin.com/in/maulana-maulana-071583320/",
@@ -110,7 +110,7 @@
       "subtitle": "Cost of Goods Sold Calculation System",
       "description": "Sistem perhitungan Harga Pokok Penjualan untuk membantu analisis biaya produksi dan margin keuntungan.",
       "body": null,
-      "tech_stack": "Excel, VBA, MySQL",
+      "tech_stack": "Laravel, MySQL, Tailwind",
       "thumbnail": null,
       "url": null,
       "images": []
@@ -119,22 +119,24 @@
       "id": 2,
       "title": "Sistem Stock Opname",
       "slug": "sistem-stock-opname",
-      "subtitle": "Inventory Stocktaking System",
-      "description": "Sistem pencatatan dan rekonsiliasi stok barang secara periodik untuk akurasi inventaris.",
+      "subtitle": "Inventory Stocktaking System — Seasonality System",
+      "description": "Sistem pencatatan dan rekonsiliasi stok barang secara periodik untuk akurasi inventaris. Terintegrasi dalam platform Seasonality System.",
       "body": null,
-      "tech_stack": "Excel, VBA, SQL Server",
+      "tech_stack": "Laravel, MySQL, Tailwind, Chart.js",
       "thumbnail": null,
       "url": null,
-      "images": []
+      "images": [
+        "images/projects/stock-opname/stock-1.jpeg"
+      ]
     },
     {
       "id": 3,
       "title": "Sistem HPP",
       "slug": "sistem-hpp",
-      "subtitle": "Harga Pokok Produksi Calculator",
+      "subtitle": "Harga Pokok Produksi Calculator — Seasonality System",
       "description": "Aplikasi perhitungan Harga Pokok Produksi untuk menentukan harga jual yang tepat.",
       "body": null,
-      "tech_stack": "Excel, PHP, MySQL",
+      "tech_stack": "Laravel, MySQL, Tailwind",
       "thumbnail": null,
       "url": null,
       "images": []
@@ -143,13 +145,15 @@
       "id": 4,
       "title": "Sistem Absensi",
       "slug": "sistem-absensi",
-      "subtitle": "Employee Attendance Tracking System",
-      "description": "Sistem pencatatan kehadiran karyawan terintegrasi dengan payroll.",
+      "subtitle": "Employee Attendance Tracking System — Seasonality System",
+      "description": "Sistem pencatatan kehadiran karyawan terintegrasi dengan face detection, kamera selfie, dan admin panel.",
       "body": null,
-      "tech_stack": "PHP, Laravel, MySQL",
+      "tech_stack": "Laravel, MySQL, Tailwind, Face Detection",
       "thumbnail": null,
       "url": null,
-      "images": []
+      "images": [
+        "images/projects/absensi/attendance-1.jpeg"
+      ]
     }
   ],
   "skills": [

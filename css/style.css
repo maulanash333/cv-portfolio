@@ -33,7 +33,7 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-.container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+.container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
 
 /* --- NAVBAR --- */
 .navbar {
@@ -102,7 +102,7 @@ body {
 .hero-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 60px;
+    gap: 40px;
     align-items: center;
 }
 .hero-tag {
