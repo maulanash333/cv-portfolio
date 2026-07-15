@@ -83,6 +83,30 @@ function renderAll() {
         document.getElementById('downloadCV').style.display = 'none';
     }
 
+    // Skripsi viewer
+    const skripsiBtn = document.getElementById('viewSkripsi');
+    if (h.skripsi) {
+        skripsiBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            document.getElementById('pageContent').classList.remove('visible');
+            document.getElementById('pageSkripsi').classList.add('visible');
+            document.getElementById('pageSkripsi').style.display = 'block';
+            document.getElementById('skripsiFrame').src = h.skripsi;
+            window.scrollTo(0, 0);
+        });
+    } else {
+        skripsiBtn.style.display = 'none';
+    }
+
+    // Back from skripsi
+    document.getElementById('backFromSkripsi').addEventListener('click', function() {
+        document.getElementById('pageSkripsi').classList.remove('visible');
+        document.getElementById('pageSkripsi').style.display = 'none';
+        document.getElementById('pageContent').classList.add('visible');
+        document.getElementById('skripsiFrame').src = '';
+        window.scrollTo(0, 0);
+    });
+
     // ATS hidden
     const atsDiv = document.createElement('div');
     atsDiv.className = 'ats-hidden';
