@@ -76,6 +76,13 @@ function renderAll() {
     document.getElementById('statCert').textContent = DATA.certificates.length;
     document.getElementById('statSkills').textContent = DATA.skills.length;
 
+    // CV download
+    if (h.cv) {
+        document.getElementById('downloadCV').href = h.cv;
+    } else {
+        document.getElementById('downloadCV').style.display = 'none';
+    }
+
     // ATS hidden
     const atsDiv = document.createElement('div');
     atsDiv.className = 'ats-hidden';
