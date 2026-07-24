@@ -92,6 +92,30 @@
   ],
   "projects": [
     {
+      "id": 6,
+      "title": "Seasonality System — All-in-One Restaurant Management",
+      "slug": "seasonality-system",
+      "subtitle": "Platform manajemen restoran terintegrasi: COGS, HPP, Stock Opname, Absensi",
+      "description": "Platform all-in-one untuk manajemen restoran Jepang. Mencakup perhitungan COGS (Cost of Goods Sold), HPP (Harga Pokok Produksi), Stock Opname (inventory), dan Absensi karyawan dengan face detection. Dibangun dengan Laravel 12, SQLite, role-based access, dan UI mobile-first.",
+      "body": "Seasonality System adalah platform restoran all-in-one yang saya kembangkan untuk menangani seluruh aspek operasional restoran:\n\n- COGS Calculator: Menghitung Harga Pokok Penjualan setiap menu berdasarkan bahan baku, resep, dan loss percentage.\n- HPP Calculator: Menghitung Harga Pokok Produksi termasuk biaya tenaga kerja dan overhead.\n- Stock Opname: Manajemen inventory real-time dengan berbagai kategori (Wet Stock, Dry Stock, Others), pencatatan out-stock, dan analitik.\n- Absensi: Sistem kehadiran karyawan dengan selfie camera dan admin panel.\n\nDibangun dengan Laravel 12, menggunakan SQLite sebagai database, Tailwind CSS untuk UI, Chart.js untuk analitik, dan fitur anti-inspect untuk keamanan.",
+      "tech_stack": "Laravel 12, SQLite, Tailwind CSS, Chart.js, PHP 8.2, Role-based Access",
+      "thumbnail": "images/projects/seasonality-system/WhatsApp Image 2026-07-24 at 15.56.30.jpeg",
+      "url": null,
+      "images": [
+        "images/projects/seasonality-system/WhatsApp Image 2026-07-24 at 15.56.30.jpeg",
+        "images/projects/seasonality-system/WhatsApp Image 2026-07-24 at 15.53.32.jpeg",
+        "images/projects/seasonality-system/WhatsApp Image 2026-07-24 at 15.54.24.jpeg",
+        "images/projects/seasonality-system/WhatsApp Image 2026-07-24 at 15.55.07.jpeg",
+        "images/projects/seasonality-system/WhatsApp Image 2026-07-24 at 15.51.33.jpeg",
+        "images/projects/seasonality-system/WhatsApp Image 2026-07-24 at 16.25.18.jpeg",
+        "images/projects/seasonality-system/WhatsApp Image 2026-07-24 at 00.01.58.jpeg",
+        "images/projects/seasonality-system/WhatsApp Image 2026-07-23 at 23.24.26.jpeg",
+        "images/projects/seasonality-system/WhatsApp Image 2026-07-23 at 23.25.20.jpeg",
+        "images/projects/seasonality-system/WhatsApp Image 2026-07-23 at 23.53.32.jpeg",
+        "images/projects/seasonality-system/WhatsApp Image 2026-07-15 at 13.00.34.jpeg"
+      ]
+    },
+    {
       "id": 5,
       "title": "CASUAL MAHASISWA YOGYAKARTA",
       "slug": "PART-TIME-MAHASISWA",
@@ -109,26 +133,30 @@
       "id": 1,
       "title": "Sistem COGS",
       "slug": "sistem-cogs",
-      "subtitle": "Cost of Goods Sold Calculation System",
-      "description": "Sistem perhitungan Harga Pokok Penjualan untuk membantu analisis biaya produksi dan margin keuntungan.",
-      "body": null,
-      "tech_stack": "Laravel, MySQL, Tailwind",
-      "thumbnail": null,
+      "subtitle": "Cost of Goods Sold Calculation System — Seasonality System",
+      "description": "Sistem perhitungan Harga Pokok Penjualan untuk membantu analisis biaya produksi dan margin keuntungan. Terintegrasi dalam platform Seasonality System.",
+      "body": "Sistem COGS (Cost of Goods Sold) menghitung harga pokok penjualan setiap menu berdasarkan bahan baku, resep, dan loss percentage. Fitur meliputi:\n\n- Manajemen ingredients/bahan baku dengan harga dan satuan\n- Manajemen resep menu dengan komposisi bahan\n- Perhitungan COGS otomatis per menu\n- Import data dari Excel/CSV\n- Export laporan",
+      "tech_stack": "Laravel 12, SQLite, Tailwind CSS, PHP 8.2",
+      "thumbnail": "images/projects/cogs/WhatsApp Image 2026-07-23 at 23.24.26.jpeg",
       "url": null,
-      "images": []
+      "images": [
+        "images/projects/cogs/WhatsApp Image 2026-07-23 at 23.24.26.jpeg",
+        "images/projects/cogs/WhatsApp Image 2026-07-23 at 23.25.20.jpeg",
+        "images/projects/cogs/WhatsApp Image 2026-07-23 at 23.51.49.jpeg"
+      ]
     },
     {
       "id": 2,
       "title": "Sistem Stock Opname",
       "slug": "sistem-stock-opname",
       "subtitle": "Inventory Stocktaking System — Seasonality System",
-      "description": "Sistem pencatatan dan rekonsiliasi stok barang secara periodik untuk akurasi inventaris. Terintegrasi dalam platform Seasonality System.",
-      "body": null,
-      "tech_stack": "Laravel, MySQL, Tailwind, Chart.js",
-      "thumbnail": null,
+      "description": "Sistem pencatatan dan rekonsiliasi stok barang secara periodik untuk akurasi inventaris. Mendukung multi-kategori (Wet Stock, Dry Stock, Others), out-stock tracking, dan analitik tren pemakaian.",
+      "body": "Sistem Stock Opname untuk manajemen inventory restoran dengan fitur:\n\n- Multi-kategori: Wet Stock (daging, seafood, sayur), Dry Stock (bumbu, beras, minyak), Others (non-food, supplies)\n- Out Stock: pencatatan pemakaian stock harian dengan filter per bulan\n- General Stock: tampilan semua stock dengan filter kategori dan pencarian\n- Analytics: grafik tren pemakaian 7 hari, top item terpakai, summary bulanan\n- Import/Export Excel dan CSV\n- Sisa stock otomatis terupdate setiap transaksi",
+      "tech_stack": "Laravel 12, SQLite, Tailwind CSS, Chart.js",
+      "thumbnail": "images/projects/stock-opname/WhatsApp Image 2026-07-15 at 13.00.34.jpeg",
       "url": null,
       "images": [
-        "images/projects/stock-opname/stock-1.jpeg"
+        "images/projects/stock-opname/WhatsApp Image 2026-07-15 at 13.00.34.jpeg"
       ]
     },
     {
@@ -136,24 +164,43 @@
       "title": "Sistem HPP",
       "slug": "sistem-hpp",
       "subtitle": "Harga Pokok Produksi Calculator — Seasonality System",
-      "description": "Aplikasi perhitungan Harga Pokok Produksi untuk menentukan harga jual yang tepat.",
-      "body": null,
-      "tech_stack": "Laravel, MySQL, Tailwind",
-      "thumbnail": null,
+      "description": "Aplikasi perhitungan Harga Pokok Produksi untuk menentukan harga jual yang tepat. Menghitung biaya bahan baku, tenaga kerja, dan overhead secara otomatis.",
+      "body": "Sistem HPP (Harga Pokok Produksi) membantu perhitungan biaya produksi secara akurat:\n\n- Manajemen karyawan dan gaji\n- Manajemen biaya overhead (listrik, gas, sewa, dll)\n- Import data penjualan dari Excel\n- Generate laporan HPP bulanan otomatis\n- Perhitungan HPP per menu berdasarkan total biaya produksi",
+      "tech_stack": "Laravel 12, SQLite, Tailwind CSS, PHP 8.2",
+      "thumbnail": "images/projects/hpp/WhatsApp Image 2026-07-24 at 15.56.30.jpeg",
       "url": null,
-      "images": []
+      "images": [
+        "images/projects/hpp/WhatsApp Image 2026-07-24 at 15.56.30.jpeg",
+        "images/projects/hpp/WhatsApp Image 2026-07-24 at 15.53.32.jpeg",
+        "images/projects/hpp/WhatsApp Image 2026-07-24 at 15.54.24.jpeg",
+        "images/projects/hpp/WhatsApp Image 2026-07-24 at 15.55.07.jpeg",
+        "images/projects/hpp/WhatsApp Image 2026-07-24 at 15.51.33.jpeg",
+        "images/projects/hpp/WhatsApp Image 2026-07-24 at 16.25.18.jpeg",
+        "images/projects/hpp/WhatsApp Image 2026-07-24 at 00.01.58.jpeg",
+        "images/projects/hpp/WhatsApp Image 2026-07-24 at 00.03.08 (1).jpeg",
+        "images/projects/hpp/WhatsApp Image 2026-07-24 at 00.03.08.jpeg",
+        "images/projects/hpp/WhatsApp Image 2026-07-24 at 15.53.32 (1).jpeg",
+        "images/projects/hpp/WhatsApp Image 2026-07-24 at 16.52.35.jpeg",
+        "images/projects/hpp/WhatsApp Image 2026-07-24 at 16.53.07.jpeg",
+        "images/projects/hpp/WhatsApp Image 2026-07-24 at 16.53.31.jpeg"
+      ]
     },
     {
       "id": 4,
       "title": "Sistem Absensi",
       "slug": "sistem-absensi",
       "subtitle": "Employee Attendance Tracking System — Seasonality System",
-      "description": "Sistem pencatatan kehadiran karyawan terintegrasi dengan face detection, kamera selfie, dan admin panel.",
-      "body": null,
-      "tech_stack": "Laravel, MySQL, Tailwind, Face Detection",
-      "thumbnail": null,
+      "description": "Sistem pencatatan kehadiran karyawan terintegrasi dengan face detection, kamera selfie, dan admin panel lengkap dengan export laporan.",
+      "body": "Sistem Absensi untuk pencatatan kehadiran karyawan:\n\n- Selfie camera untuk verifikasi kehadiran\n- Admin dashboard dengan rekap kehadiran\n- Manajemen data karyawan\n- Export laporan Excel/CSV\n- Role-based access (admin, super admin)",
+      "tech_stack": "Laravel 12, SQLite, Tailwind CSS, Face Detection Camera",
+      "thumbnail": "images/projects/absensi/WhatsApp Image 2026-07-23 at 23.53.32.jpeg",
       "url": null,
       "images": [
+        "images/projects/absensi/WhatsApp Image 2026-07-23 at 23.53.32.jpeg",
+        "images/projects/absensi/WhatsApp Image 2026-07-23 at 23.54.25.jpeg",
+        "images/projects/absensi/WhatsApp Image 2026-07-23 at 23.54.55.jpeg",
+        "images/projects/absensi/WhatsApp Image 2026-07-23 at 23.55.42.jpeg",
+        "images/projects/absensi/WhatsApp Image 2026-07-23 at 23.56.32.jpeg",
         "images/projects/absensi/attendance-1.jpeg"
       ]
     }
